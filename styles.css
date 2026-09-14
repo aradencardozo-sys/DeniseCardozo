@@ -1,0 +1,74 @@
+/*IMPORTACION DE TIPOGRAFIA Y ESTILO GENERAL*/
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Concert+One&family=Galindo&family=Maitree:wght@200;300;400;500;600;700&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color:#f8f8ff;
+}
+
+.textocentro{
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+/* HEADER Y LINKS */
+
+header{
+    background-color: #000000;
+}
+
+h1{
+    color: #f8f8ff;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 900;
+    font-size: 80px;
+}
+
+header p{
+    color: #f8f8ff;
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+header a{
+    color:#d67f0e;
+    text-decoration: none;
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: italic;
+}
+
+ /* MAIN */    
+
+h2,h3{
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+main p{
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;  
+}
+main figure figcaption{
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: italic;
+}
+
+/* PIE DE PÁGINA*/
+
+footer{
+    background-color: #a9a9a9;
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
